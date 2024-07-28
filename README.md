@@ -64,21 +64,3 @@ if __name__ == "__main__":
     print("Maximum value in the tree:", tree.get_max_value_node(root).key)
     print("Sum of all values in the tree:", tree.get_sum_values(root))
 ```
-
-### Output
-
-Inserting values into AVL tree:
-AVL Tree:
-Root: 22
-L--- 5
-L--- -10
-R--- 14
-R--- 31
-L--- 28
-R--- 40
-L--- 32
-R--- 47
-
-Minimum value in the tree: -10
-Maximum value in the tree: 47
-Sum of all values in the tree: 209
